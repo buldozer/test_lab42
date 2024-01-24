@@ -1,11 +1,11 @@
 <?php
 
-require_once 'Generator/URLGenerator.php';
-require_once 'Generator/BasicURLGenerator.php';
-require_once 'Generator/URLGenerator.php';
-require_once 'Generator/LinuxDecorator.php';
-require_once 'Generator/WindowsDecorator.php';
-require_once 'Generator/URLGeneratorFactory.php';
+require_once 'Service/URLGenerator.php';
+require_once 'Service/BasicURLGenerator.php';
+require_once 'Service/URLGenerator.php';
+require_once 'Service/LinuxDecorator.php';
+require_once 'Service/WindowsDecorator.php';
+require_once 'Service/URLGeneratorFactory.php';
 
 // Get values from POST request
 $url = $_POST['url'] ?? '';

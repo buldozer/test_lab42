@@ -18,7 +18,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: 'POST',
-            url: 'generate.php',
+            url: 'service.php',
             data: {url: url, os: os},
             success: function (result) {
                 $('#resultOutput').val(result);
